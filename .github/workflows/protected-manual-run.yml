@@ -1,0 +1,12 @@
+name: Protected Manual Run
+
+on: workflow_dispatch
+    
+jobs:
+  protected_job:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+    - name: Print Hello World
+      run: |
+        echo "Hello, world!"
