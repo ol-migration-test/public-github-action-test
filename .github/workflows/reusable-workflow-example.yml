@@ -4,8 +4,4 @@ on: workflow_dispatch
 
 jobs:
   this_is_a_test:
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-    - name: CI Infrastructure
-      uses: ol-migration-test/exp-github-action-templates/.github/workflows/ci-infrastructure.yml@main
+    uses: ol-migration-test/exp-github-action-templates/.github/workflows/ci-infrastructure.yml@main
