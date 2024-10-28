@@ -8,4 +8,4 @@ jobs:
     environment: production
     steps:
     - name: CI Infrastructure
-      uses: ol-migration-test/exp-github-action-templates/.github/workflows/ci-infrastructure.yml
+      uses: ol-migration-test/exp-github-action-templates/.github/workflows/ci-infrastructure.yml@main
